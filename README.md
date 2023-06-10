@@ -8,3 +8,7 @@
 docker run -it --entrypoint /bin/bash $IMAGE_NAME -s
 
 ```
+
+```sh
+pipenv run pip freeze > requirements.txt
+```
